@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Habit Tracker</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+	</head>
+	<body class="bg-gradient-to-br from-indigo-50 to-white min-h-screen font-sans p-6">
+		<div class="max-w-4xl mx-auto">
+			<header class="flex items-center justify-between mb-8">
+				<h1 class="text-3xl font-bold text-indigo-700">📅 Daily Habit Tracker</h1>
+
+				<button id="addHabitBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-xl transition duration-200">Add Habit</button>
+			</header>
+
+			<section id="habitList" class="grid gap-6 md:grid-cols-2"></section>
+
+			<div id="modal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex justify-center items-center">
+				<div class="bg-white p-6 rounded-xl shadow-xl w-full max-w-md">
+					<h2 class="text-xl font-bold mb-4 text-indigo-700">Add New Habit</h2>
+
+					<input id="habitInput" type="text" class="w-full border border-gray-300 rounded-lg px-4 py-2 mb-4 focus:ring-2 focus:ring-indigo-300 focus:outline-none" placeholder="Go Gym, Read Book" />
+
+					<div class="flex justify-end gap-4">
+						<button id="cancelBtn" class="text-gray-500 hover:text-gray-700 transition">Cancel</button>
+
+						<button id="saveBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
