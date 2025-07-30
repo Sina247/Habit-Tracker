@@ -5,7 +5,7 @@ A modern and user friendly habit tracker built with HTML, Tailwind CSS and JavaS
 ---
 
 ## 🚀 Features  
-- 🧠 **Persistent habits** : Your added habits are saved in `localStorage` and will not disappear on refresh.  
+- 🧠 **Persistent habits** : Your added habits are saved in localStorage and will not disappear on refresh.  
 - ✨ **Modern UI with Tailwind CSS** : Clean, responsive and interactive design for a smooth experience.  
 - ✅ **Mark as done** : Track your completed habits easily with one click.  
 - 🗑️ **Delete habits** : Remove unwanted habits in a snap.  
